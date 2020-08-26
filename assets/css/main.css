@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 @import url("fontawesome-all.min.css");
 
+/* aqui le quito las viñetas a los <li>*/
+.li-education{
+	list-style-type: none;
+}
+
 /*
 	Astral by HTML5 UP
 	html5up.net | @ajlkn
@@ -1553,6 +1558,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
+			height: 250px;
 		}
 
 		.image.fit {
